@@ -1,0 +1,159 @@
+nav{
+    padding: 15px 0;
+        .navbar{
+            
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            ul{
+                display: flex;
+                gap: 80px;
+                list-style: none;
+            }
+            .icon{
+                display: flex;
+                gap: 20px;
+                color: rgba(174, 123, 60, 1);
+            }
+        }
+}
+header{
+    min-width: 320px;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-image: url(../images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.jpg);
+    width: 100%;
+    height: 687px;
+    position: relative;
+    .layner{
+        width: 100%;
+        height: 687px;
+        position: absolute;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -13.19%, rgba(0, 0, 0, 0.85) 94.01%);
+    }
+    .header_text{
+      margin: 0 auto;
+        position: relative;
+        padding-top:80px ;
+        width: 537px;
+        text-align: center;
+        h1{
+            color: white;
+font-size: 80px;
+font-weight: 600;
+line-height: 70px;
+text-align: center;
+letter-spacing: 4px;
+        }
+        p{
+            color: rgba(255, 255, 255, 0.674);
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+text-align: center;
+        }
+        button{
+            width:240px;
+            height:60px;
+            background-color: rgba(174, 123, 60, 1);
+            border: none;
+            font-size: 14px;
+            font-weight: 700;
+            color: white;
+        }
+    }
+}
+main{
+    .main_text{
+        padding-top: 100px;
+       h2{
+        text-align: center;
+        font-size: 46px;
+        font-weight: 600;
+       }
+        .main_cards{
+            padding-bottom: 60px;
+            display: flex;
+            justify-content: space-between;
+            .card{
+                border-width: 1px solid rgba(40, 43, 34, 1);
+                width: 353px;
+                height: 458px;
+                img{
+                    width: 354px;
+                    height: 320px;
+                }
+                .card_text{
+                    p{
+                        font-size: 24px;
+                        color: rgba(0, 0, 0, 0.49);
+                    }
+                    h3{
+                        font-size: 24px;
+                    }
+                }
+              
+            }
+        }
+    }
+}
+.menyu{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: rgba(61, 74, 57, 1);
+    max-width: 1500px;
+    .menyu_text{
+        color: white;
+        font-size: 36px;
+        text-align: center;
+    }
+    .menyu_cards{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    text-align: center;
+    h2{
+        color: white;
+    }
+
+    }
+}
+.proect{
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+    padding: 80px 0;
+    .proect_img{
+        position: absolute;
+        left: 1px;
+    
+    }
+    .proect_img2{
+        position: absolute;
+    right: 1px;
+    }
+    h2{
+        width: 814px;
+        margin: auto;
+       font-size: 36px;
+       font-weight: 600;
+}
+.proect_text{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0;
+ .proect_card{
+ 
+  h2{
+    width: 400px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+ }
+}
+}
+@media screen and(min-width:760px){
+    .menyu_cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
