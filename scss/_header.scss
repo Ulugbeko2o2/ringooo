@@ -125,12 +125,14 @@ main{
     padding: 80px 0;
     .proect_img{
         position: absolute;
-        left: 1px;
+      left: 10px;
+      top: -10;
     
     }
     .proect_img2{
         position: absolute;
-    right: 1px;
+    right: 10px;
+    top: 100px;
     }
     h2{
         width: 814px;
